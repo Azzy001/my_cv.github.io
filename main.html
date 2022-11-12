@@ -9,40 +9,60 @@
 </head>
 
 <style>
+  .title-table a, h1, h3 {
+    padding: 0 10px;
+    text-decoration: none;
+  }
+
   .summary_table {
+    border: 1px solid black;
     padding: 0 12px;
   }
 
   .education {
+    border: 1px solid black;
     padding: 0 12px;
   }
 
   .skills {
-    padding: 0 12px;
+    padding: 10px 10px;
     border: 1px solid black;
+    height:600px;
+    width:250px;
+    display: inline-block;
+    position: absolute;
+  }
+
+  .career {
+    border: 1px solid black;
+    width: 1200px;
+    height: 620px;
+    display: inline-block;
+    margin: 0 0 596px 285px;
   }
 </style>
 
 <body>
   <!--Title-->
-  <table cellspacing="15">
-    <tr>
-      <td><img src="selfie.jpg" alt="selfie" , style="width:150px; height:225px;">
-      </td>
-      <td>
-        <h1>Arsalan Arref</h1>
-        <h3>DevOps Engineer ║ Software Engineer ║ Software Developer</h3>
-        <p>Title</p>
-        <a href="https://www.linkedin.com/in/arsalan-arref/">LinkedIn</a>
-        <br>
-        <a href="https://github.com/Azzy001">Gmail</a>
-        <br>
-        <a href="https://medium.com/@arsalan.arref">Medium</a>
-        <br>
-        <a href="">Paste website here</a>
-      </td>
-    <tr>
-  </table>
+  <div class="title-table">
+    <table>
+      <tr>
+        <td><img src="selfie.jpg" alt="selfie" , style="width:150px; height:225px;">
+        </td>
+        <td>
+          <h1>Arsalan Arref</h1>
+          <h3>DevOps Engineer ║ Software Engineer ║ Software Developer</h3>
+          <a href="https://www.linkedin.com/in/arsalan-arref/">LinkedIn</a>
+          <br>
+          <a href="https://github.com/Azzy001">GitHub</a>
+          <br>
+          <a href="https://medium.com/@arsalan.arref">Medium</a>
+          <br>
+          <a href="">Paste website here</a>
+        </td>
+      <tr>
+    </table>
+  </div>
   <hr>
 
   <!--Personal Summary-->
@@ -121,7 +141,6 @@
       </tbody>
     </table>
   </div>
-
   <hr>
 
   <!--Skills section-->
@@ -129,75 +148,114 @@
     <table>
       <tr>
         <th align="left">Software and Tools</th>
-        <th style="padding:0 0 0 500px;">Programming Languages</th>
-        <th style="padding:0 0 0 600px;">Operating Systems</th>
       </tr>
-
       <tr>
-        <td style="padding:0 0 0 0;">Microsoft Office</td>
-        <td style="padding:0 0 0 500px;">Python</td>
-        <td style="padding:0 0 0 600px;">Windows XP</td>
+        <td>Microsoft Office</td>
       </tr>
-
       <tr>
         <td>ServiceNow (Ticketing software)</td>
-        <td style="padding:0 0 0 500px;">C++</td>
-        <td style="padding:0 0 0 600px;">Windows 7</td>
       </tr>
-
       <tr>
         <td>Remedy (Ticketing software)</td>
-        <td style="padding:0 0 0 500px;">HTML</td>
-        <td style="padding:0 0 0 600px;">Windows 8</td>
       </tr>
-
       <tr>
         <td>Assyst (Ticketing software)</td>
-        <td style="padding:0 0 0 500px;">CSS</td>
-        <td style="padding:0 0 0 600px;">Windows 10</td>
       </tr>
-
       <tr>
         <td>McAfee Epolicy Orchestrator</td>
-        <td style="padding:0 0 0 500px;">SQL</td>
-        <td style="padding:0 0 0 600px;">Windows 11</td>
       </tr>
-
       <tr>
         <td>Remote Desktop Connection manager</td>
-        <td style="padding:0 0 0 500px;"></td>
-        <td style="padding:0 0 0 600px;">MacOS</td>
       </tr>
-
       <tr>
         <td>NextThink Finder</td>
       </tr>
-
       <tr>
         <td>Active Directory</td>
       </tr>
-
       <tr>
         <td>Microsoft Intune</td>
       </tr>
-
       <tr>
         <td>Monday.com</td>
       </tr>
-
       <tr>
         <td>WordPress</td>
       </tr>
-
       <tr>
         <td>Amazon Web Services</td>
       </tr>
 
+      <tr>
+        <th align="left" style="padding:20px 0 0 0;">Programming Languages</th>
+      </tr>
+      <tr>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>C++</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+      </tr>
+
+      <tr>
+        <th align="left" style="padding:20px 0 0 0;">Operating Systems</th>
+      </tr>
+      <tr>
+        <td>Windows XP</td>
+      </tr>
+      <tr>
+        <td>Windows 7</td>
+      </tr>
+      <tr>
+        <td>Windows 8</td>
+      </tr>
+      <tr>
+        <td>Windows 10</td>
+      </tr>
+      <tr>
+        <td>Windows 11</td>
+      </tr>
+      <tr>
+        <td>MacOS</td>
+      </tr>
     </table>
   </div>
 
+  <!--Career summary-->
+  <div class="career">
+  <table>
+    <tr>
+      <th style="padding:0 0 0 0;">Clour Operator</th>
+      <th style="padding:0 0 0 370px;">Tata Consultancy Services</th>
+      <th style="padding:0 0 0 300px;">16/05/2022 - Present</th>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>Test</td>
+      <td>Test</td>
+      <td>Test</td>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>Test</td>
+      <td>Test</td>
+      <td>Test</td>
+    </tr>
 
+  </table>
+  </div>
 
 </body>
-
 </html>
+
+<!--Change style="float: left" to style="float: left; margin-left: 10px". and Change 10px to whatever you like. –
+700 Software
+ Apr 12, 2011 at 17:45 -->
