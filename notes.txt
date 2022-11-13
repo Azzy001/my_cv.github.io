@@ -10,13 +10,19 @@ https://www.w3schools.com/howto/howto_css_table_side_by_side.asp
 
 
 
-
-
-
-
-
-
-
-
 http://www.cs.cornell.edu/home/kleinber/
 https://www.cs.dartmouth.edu/~thc/
+
+
+
+
+p {
+padding: 35px 70px 50px 90px;
+}
+35 pixels for top
+70 pixels for right
+50 pixels for bottom
+90 pixels for left
+
+<img src="most_used_languages.png" alt="pie-chart" width="750", height="471">
+https://github.com/Azzy001/Guess_Game_Tk/blob/main/guess_game_Tk.py
